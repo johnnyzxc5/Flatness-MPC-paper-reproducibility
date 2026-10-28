@@ -7,9 +7,9 @@ authors:
     given-names: Johnny
   - family-names: Salguero
     given-names: Nicolas
-  - family-names: Iqbal
-    given-names: Naveed
   - family-names: Brahmi
     given-names: Brahim
+  - family-names: Iqbal
+    given-names: Naveed
 repository-code: "https://github.com/johnnyzxc5/Flatness-MPC-paper-reproducibility"
 date-released: 2026-10-28

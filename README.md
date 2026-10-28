@@ -1,6 +1,6 @@
 # Flatness-MPC paper reproducibility
 
-Source and configuration for **Flatness-Based Predictive Control of Robotic Manipulators under Partial Actuator Degradation**, by Johnny Garcia, Nicolas Salguero, Naveed Iqbal and Brahim Brahmi.
+Source and configuration for **Flatness-Based Predictive Control of Robotic Manipulators under Partial Actuator Degradation**, by Johnny Garcia, Nicolas Salguero, Brahim Brahmi and Naveed Iqbal.
 
 This independent companion repository generates the benchmark simulations, tables and three paper figures. It contains the model, controller and supervisor implementations, trajectory endpoints, fault/uncertainty schedules and random seeds. **Recorded simulation traces and raw result archives are not distributed.** Four small aggregate reference tables and three reference figures are included for comparison.
 
@@ -43,6 +43,6 @@ tools/               source/configuration integrity verification
 provenance/          source identities and validation receipts
 ```
 
-The final campaign has 232 runs: `(54 cases + 4 integration-step repetitions) x 2 paths x 2 controllers`. Random uncertainty uses seeds 7001–7030 per path with paired realizations. The controller labels are `Observer` (corrected Flatness plus observer) and `LTVObserver`. The definitive executable design is `simulation/frozen/benchmark_evidence/run_evidence.m`; `config/recorded_protocol.json` records its settings. Legacy-named source folders are retained as dependencies of that frozen implementation, not as additional benchmark campaigns to execute.
+The final campaign has 232 runs: `(54 cases + 4 integration-step repetitions) x 2 paths x 2 controllers`. Random uncertainty uses seeds 7001â€“7030 per path with paired realizations. The controller labels are `Observer` (corrected Flatness plus observer) and `LTVObserver`. The definitive executable design is `simulation/frozen/benchmark_evidence/run_evidence.m`; `config/recorded_protocol.json` records its settings. Legacy-named source folders are retained as dependencies of that frozen implementation, not as additional benchmark campaigns to execute.
 
-See [reproduction details](docs/REPRODUCTION.md), [paper map](docs/PAPER_MAP.md), [environment](docs/ENVIRONMENT.md), [validation](docs/VALIDATION.md), [provenance](provenance/README.md), and [rights](RIGHTS.md). The repository is currently private. No open-source license has been selected.
+See [reproduction details](docs/REPRODUCTION.md), [paper map](docs/PAPER_MAP.md), [environment](docs/ENVIRONMENT.md), [validation](docs/VALIDATION.md), [provenance](provenance/README.md), and [rights](RIGHTS.md). No open-source license has been selected.
