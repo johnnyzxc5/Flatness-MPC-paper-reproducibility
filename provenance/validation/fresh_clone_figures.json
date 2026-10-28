@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "comparison": "180 dpi RGB rendering against the three paper reference PDFs",
+  "figures": [
+    {
+      "figure": "fig_1_transitorio_escalon_ieee_1col.pdf",
+      "dimensions": [
+        622,
+        406
+      ],
+      "rendered_pixels_equal": true
+    },
+    {
+      "figure": "fig_2_autoridad_limitada_compacta_B_1col.pdf",
+      "dimensions": [
+        623,
+        406
+      ],
+      "rendered_pixels_equal": true
+    },
+    {
+      "figure": "fig_3_variacion_por_ventana_ieee_1col.pdf",
+      "dimensions": [
+        623,
+        299
+      ],
+      "rendered_pixels_equal": true
+    }
+  ],
+  "pdf_binary_equality_required": false
+}

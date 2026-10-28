@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "metric_comparisons": 5336,
+  "runs": 232,
+  "pairs": 116,
+  "independent_random_pairs_per_path": 30,
+  "paired_portable_inputs_equal": true,
+  "npz_hashes_checked": 232,
+  "original_MAT_hashes_checked": 232,
+  "fine_durations_recomputed_for_available_MAT": 232,
+  "fine_peaks_all_runs_checked_against_portable_violation": true,
+  "other_fine_durations": "All 232 MAT checked",
+  "simulations_run": false,
+  "input_origin": "Locally generated MAT files; no downloaded run data",
+  "bootstrap": "Descriptive percentile bootstrap, 10000 resamples; seeds 20261018 / 20261019; no BCa; no multiplicity adjustment",
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "pandas": "2.3.3",
+  "scipy": "1.18.1",
+  "script_sha256": "7f755466cb40322566f1999fe726dd5b29d99b965bfdf884cac3ec689500933c"
+}

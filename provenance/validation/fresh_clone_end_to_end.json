@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "fresh_clone": true,
+  "repository_head": "a18325707c08a4a65ccd338cebb2906193c1f1ac",
+  "source_and_seed_generation": true,
+  "generated_runs": 232,
+  "comparison": [
+    {
+      "table": "resumen_pareado.csv",
+      "rows_compared": 12,
+      "non_timing_numeric_match": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "table": "resumen_ventanas.csv",
+      "rows_compared": 24,
+      "non_timing_numeric_match": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "table": "aporte_absoluto_TV.csv",
+      "rows_compared": 8,
+      "non_timing_numeric_match": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "table": "cumplimiento_por_bloque.csv",
+      "rows_compared": 14,
+      "non_timing_numeric_match": true,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "timing_policy": "Timing and deadline exceedances are remeasured; not used for cross-execution equality.",
+  "new_results_distributed": false,
+  "git_clean_after_generation": true
+}
