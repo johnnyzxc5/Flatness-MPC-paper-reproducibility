@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "action": "validate",
+  "matlab": "26.1.0.3312084 (R2026a) Update 4",
+  "core": {
+    "status": "PASS",
+    "random_states": 20,
+    "max_errors": [
+      8.95186398297191E-16,
+      3.6687789788066426E-15,
+      3.6918990472931091E-15,
+      2.3805564184365472E-16,
+      7.0852954314294364E-9
+    ],
+    "error_columns": [
+      "mass_RBT",
+      "bias_RBT",
+      "MEX_MATLAB",
+      "FK_RBT",
+      "gravity_potential"
+    ],
+    "lift_error": 1.0937950820210114E-15
+  },
+  "evidence": {
+    "status": "PASS",
+    "base_equivalence": [
+      0,
+      0
+    ],
+    "coarsening_max_command_Nm": 6.8387484297716128E-7,
+    "observer_sign_gate_bound": "PASS",
+    "independent_QP": "PASS",
+    "instrumentation_equivalence": true,
+    "causal_health_delay": true
+  }
+}

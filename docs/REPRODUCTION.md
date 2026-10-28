@@ -1,0 +1,13 @@
+# Reproduction details
+
+The source campaign evaluates 54 conditions per path and controller, then repeats four selected conditions with 0.5-ms plant integration: 232 simulations in total. Each run lasts 10 s with a 20-ms controller update; the ordinary plant integration uses RK4 at 1 ms. Seeds, controller order, faults, model perturbations, health estimation errors, initial offsets and convergence cases are defined explicitly in run_evidence.m. Current estimated effectiveness is held over the prediction horizon.
+
+Trajectory geometry is specified by two endpoint vectors in config/trajectory_endpoints.json. The wrapper writes minimal local TrajectoryData.q files containing those endpoints because the frozen trajectory function uses only its first and last columns. Path B reverses the historical Gravity endpoints. These generated MAT inputs have different binary hashes from the historical full trajectory files, but identical numerical endpoints. The original paper campaign hash is provenance, not an expected cross-host folder name. A staged workspace retains its generated inputs for resumable campaigns; changing source, kernels or endpoint inputs changes campaign identity.
+
+run_reproduction('campaign') creates every MAT file locally and an adjacent hash/metric JSON, followed by metrics.csv and finished.json. python reproduce.py analyze processes those local outputs, verifies both controller realizations share the same exogenous inputs, and recalculates all control-grid and dense-grid quantities. It exports all_metrics, summary tables, window decompositions, transient figure traces, timing and integration-refinement metrics. No downloaded simulation data are needed.
+
+The bootstrap uses 10,000 descriptive percentile resamples with seeds 20261018 and 20261019 and the original metric/draw order. Paired percentage change is the arithmetic mean of within-pair percentages; it differs from percentage change between arithmetic means. Tracking metrics are restricted to moving reference samples, whereas full-run command metrics include holding. TV increments crossing a window boundary are tracked separately. Numerical violations are assessed on the stored integration grid.
+
+The two main controller labels are Observer and LTVObserver. Full-update latency includes observation, supervision, model and QP, and excludes plant integration. Initial preparation is measured separately. Timing is not expected to match the paper across hosts or executions.
+
+Ordinary outputs stay in .runtime/ and results/, both ignored by Git. The original sources and small paper-level references remain unchanged. Full regeneration is separate from a smoke validation; docs/VALIDATION.md records what has actually been executed.

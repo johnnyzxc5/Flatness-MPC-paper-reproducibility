@@ -1,0 +1,22 @@
+[
+  {
+    "table": "resumen_pareado.csv",
+    "rows": 14,
+    "numeric_match": true
+  },
+  {
+    "table": "resumen_ventanas.csv",
+    "rows": 24,
+    "numeric_match": true
+  },
+  {
+    "table": "aporte_absoluto_TV.csv",
+    "rows": 8,
+    "numeric_match": true
+  },
+  {
+    "table": "cumplimiento_por_bloque.csv",
+    "rows": 14,
+    "numeric_match": true
+  }
+]

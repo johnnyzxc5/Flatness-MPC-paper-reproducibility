@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "action": "smoke",
+  "matlab": "26.1.0.3312084 (R2026a) Update 4",
+  "runs": [
+    {
+      "profile": "Inertia",
+      "case": "healthy",
+      "controller": "Observer",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 1.4575667689810901E-5,
+      "TV_cmd": 72.646387496799036,
+      "max_ddq_violation": 0
+    },
+    {
+      "profile": "Inertia",
+      "case": "healthy",
+      "controller": "LTVObserver",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 4.1481629170153942E-5,
+      "TV_cmd": 72.712380639832119,
+      "max_ddq_violation": 0
+    },
+    {
+      "profile": "Inertia",
+      "case": "early_step",
+      "controller": "Observer",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 0.00033255400304554286,
+      "TV_cmd": 124.36613036739935,
+      "max_ddq_violation": 4.0938996062204156
+    },
+    {
+      "profile": "Inertia",
+      "case": "early_step",
+      "controller": "LTVObserver",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 0.000329281581489242,
+      "TV_cmd": 123.7218427864746,
+      "max_ddq_violation": 4.0939347994021551
+    },
+    {
+      "profile": "GravityReverse",
+      "case": "healthy",
+      "controller": "Observer",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 2.104518402891829E-5,
+      "TV_cmd": 77.894514346985645,
+      "max_ddq_violation": 0
+    },
+    {
+      "profile": "GravityReverse",
+      "case": "healthy",
+      "controller": "LTVObserver",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 5.8682250168723687E-5,
+      "TV_cmd": 78.005779003858635,
+      "max_ddq_violation": 0
+    },
+    {
+      "profile": "GravityReverse",
+      "case": "early_step",
+      "controller": "Observer",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 0.00035219106865023167,
+      "TV_cmd": 138.76880873997092,
+      "max_ddq_violation": 3.0385007075512815
+    },
+    {
+      "profile": "GravityReverse",
+      "case": "early_step",
+      "controller": "LTVObserver",
+      "ticks": 500,
+      "goal_reached": true,
+      "rmse_rad": 0.00035976988605076208,
+      "TV_cmd": 140.10389954036123,
+      "max_ddq_violation": 3.0383527812083964
+    }
+  ]
+}

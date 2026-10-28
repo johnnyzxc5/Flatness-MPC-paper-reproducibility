@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.key
+*.pem
+results/
+.runtime/
+data/raw/
+downloads/
+*.asv
+*.log
+*.tmp

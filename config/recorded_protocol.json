@@ -1,0 +1,63 @@
+{
+  "variants": [
+    "Observer",
+    "LTVObserver"
+  ],
+  "config": {
+    "version": "ftmpc-v1",
+    "Ts": 0.02,
+    "h": 0.001,
+    "Tf": 5,
+    "Np": 15,
+    "Nc": 10,
+    "qscale": 0.1,
+    "effort_weight": 0.01,
+    "smooth_weight": 1,
+    "smooth_multiplier": 0.001,
+    "alpha_floor": 0.05,
+    "qp_tol": 1e-07,
+    "qp_max_iter": 500,
+    "seed": 1729
+  },
+  "options": {
+    "reserve": 0.03,
+    "grid": 501,
+    "window": 8,
+    "plateau_samples": 3,
+    "jump_threshold": 0.08,
+    "slope_threshold": 0.005,
+    "preview_seconds": 0.6,
+    "governor_period": 0.1,
+    "plan_dt": 0.04,
+    "verify_dt": 0.01,
+    "max_time": 10,
+    "hold_time": 1,
+    "static_reserve": 0.1,
+    "duration_factors": [
+      1,
+      1.25,
+      1.5,
+      2,
+      3,
+      4
+    ],
+    "duration_extra": [
+      0.5,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      12,
+      16,
+      20
+    ]
+  },
+  "runs": 232,
+  "environment": {
+    "matlab": "26.1.0.3312084 (R2026a) Update 4",
+    "computer": "PCWIN64",
+    "threads": 1
+  }
+}

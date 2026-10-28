@@ -1,0 +1,15 @@
+block,controller,runs,goals,q_violations,dq_violations,ddq_violations,fallback_runs,deadlines
+random,LTVObserver,60,51,0,0,12,0,0
+random,Observer,60,60,0,0,11,0,0
+fault,LTVObserver,20,20,0,0,4,0,0
+fault,Observer,20,20,0,0,3,0,0
+sensitivity,LTVObserver,16,16,0,2,2,0,0
+sensitivity,Observer,16,16,0,2,2,0,0
+health_estimation,LTVObserver,8,8,0,0,0,0,0
+health_estimation,Observer,8,8,0,0,0,0,0
+adaptation,LTVObserver,2,2,0,0,0,0,1
+adaptation,Observer,2,2,0,0,0,0,0
+initial,Observer,2,2,0,0,0,0,0
+initial,LTVObserver,2,0,2,2,2,2,0
+convergence,LTVObserver,8,8,0,2,3,0,0
+convergence,Observer,8,8,0,2,3,0,0

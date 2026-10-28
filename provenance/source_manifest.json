@@ -1,0 +1,258 @@
+[
+  {
+    "path": "benchmark/+ftmpc/alpha.m",
+    "sha256": "1fb20a35c84a60843b2b22f83378b29e5827982a7c67219bc5e85025cfa201e1"
+  },
+  {
+    "path": "benchmark/+ftmpc/config.m",
+    "sha256": "578963f23ea4bc84511046d8d39ddc61ec7a09264664a1c0a6fd2805e7a864f8"
+  },
+  {
+    "path": "benchmark/+ftmpc/effort_applied.m",
+    "sha256": "92b9d1e0d4a860eb75bbecbdc90bf37bbd3ac9536b0688997b7f8f0096903038"
+  },
+  {
+    "path": "benchmark/+ftmpc/faults.m",
+    "sha256": "de5bc7e2a337f0f30cc996f64ecf1bcc8b4c562e94f25e9e07642fac9c8bb306"
+  },
+  {
+    "path": "benchmark/+ftmpc/fk.m",
+    "sha256": "b41d221255a461f80f233d8f3340261456eaf0615b633ca9fca3ec4dc1ab1a7b"
+  },
+  {
+    "path": "benchmark/+ftmpc/hash_file.m",
+    "sha256": "b361c72227c87412c4ccbbb51ca2d5a637d50cd35b25ac3e614a1efc94dcfcfc"
+  },
+  {
+    "path": "benchmark/+ftmpc/lift.m",
+    "sha256": "8c936723f34482f21ac450674cf978698ae7d1a3b79a08ebb8cc8c37fc4813c6"
+  },
+  {
+    "path": "benchmark/+ftmpc/linearize.m",
+    "sha256": "240e9d3216056eae2f179c63e737f9a671e622dfbbb4a72b5754cb3c892b3ad6"
+  },
+  {
+    "path": "benchmark/+ftmpc/metrics.m",
+    "sha256": "2848306b55105f8713993fbc3c8841ac8ad110f6e63e0be7f8f36de72897eeaa"
+  },
+  {
+    "path": "benchmark/+ftmpc/model.m",
+    "sha256": "a13c4b6e32cb09f10e4c4453aa058d5a274ed19d0250baa62a7964282c95d8fb"
+  },
+  {
+    "path": "benchmark/+ftmpc/perturbation.m",
+    "sha256": "57fd0f9f9f0b99606c264c74e4af38936349c5ddcf59bdaea5ad87a2d88b5e6c"
+  },
+  {
+    "path": "benchmark/+ftmpc/prepare.m",
+    "sha256": "29a7176f512d779ce5282757220d23f1697707f339da0a2fb838882b3e296e6f"
+  },
+  {
+    "path": "benchmark/+ftmpc/reference.m",
+    "sha256": "0f2b597280f1ca0008255b14d6c13797513d9a0d64c73c19c5b2bc389dedc89b"
+  },
+  {
+    "path": "benchmark/+ftmpc/simulate.m",
+    "sha256": "8f514a5dcaeba634b96f4ba078c3488bf3ce91c153b66ecfa22d7bfb36d8c73f"
+  },
+  {
+    "path": "benchmark/+ftmpc/source_manifest.m",
+    "sha256": "b7a8cc9b5c2c5fb975796df297075155517f13a90b340378ae40d1ce00af3c0d"
+  },
+  {
+    "path": "benchmark/+ftmpc/step.m",
+    "sha256": "d5e5bfca7377b5ab6275b8570f46b3c67174cf80fa7346596d353f172455ec05"
+  },
+  {
+    "path": "benchmark/+ftmpc/trajectory.m",
+    "sha256": "5849366797506aa5cf9790405b7b52be9f8f503e9b0836651f766cafe438c575"
+  },
+  {
+    "path": "benchmark/+ftmpc/write_json.m",
+    "sha256": "66a2be7badff2bea688a582f2f40fc4884fcaaa10ff2d818b4625ed6939c6550"
+  },
+  {
+    "path": "benchmark/build_benchmark.m",
+    "sha256": "65960e3018d2a2275d92928277714f45d66356227e5dc17eb2c78fb0b57ec31c"
+  },
+  {
+    "path": "benchmark/ftmpc_dynamics.m",
+    "sha256": "b3f405d5e164f56740a1b07571942ad66cead1cd369446e6ebcc463e8777b563"
+  },
+  {
+    "path": "benchmark/ftmpc_integrate.m",
+    "sha256": "6f628af6cae25b10a4227786d342b0924485d024860ef489e51aa300827e8f81"
+  },
+  {
+    "path": "benchmark/generated/ftmpc_dynamics_mex.mexw64",
+    "sha256": "d3499379636e2241dcd564fb5e5422566c1baf07faa5928c6585e66d56ff476b"
+  },
+  {
+    "path": "benchmark/generated/ftmpc_integrate_mex.mexw64",
+    "sha256": "1fec7f9eb830fe84061b8b9588fcecd30c7ba51a70c12a0611a37d4352d10807"
+  },
+  {
+    "path": "benchmark/run_campaign.m",
+    "sha256": "4391d3cfbfc656c074bebe9cc63c0c31cb0dd59381d0bf10337c391b0ab5cafa"
+  },
+  {
+    "path": "benchmark/run_fault_pilot.m",
+    "sha256": "d68eb0aedbcf22c5b537fd069917031043f06089373a8368a54c0bf6d0474d77"
+  },
+  {
+    "path": "benchmark/run_pilot.m",
+    "sha256": "582444d607f736d3a22632c2bf1cddf51a25ccf715428cad1016f2f0646b7b09"
+  },
+  {
+    "path": "benchmark/tests/validate_controller.m",
+    "sha256": "e282c9d3048fc416a6bd3fac88ad9bec458a9923a842733f2d0381fd2aee722d"
+  },
+  {
+    "path": "benchmark/tests/validate_core.m",
+    "sha256": "16a92867689b7639c6c138cacd5114d3c4fc22920c555cf4f50f82bb2bbbf680"
+  },
+  {
+    "path": "benchmark/third_party/kinova_gen3_6dof.urdf",
+    "sha256": "eb3562ad3871cc9d0923e6f778592653bb766391ee72e536a0297a7863d00b13"
+  },
+  {
+    "path": "benchmark_v3/+ftv3/manifest.m",
+    "sha256": "1e34c44ff88eaadd2878d1d07acec9dd3aad0754dbe89825c4e1af59f61bdc1e"
+  },
+  {
+    "path": "benchmark_v3/+ftv3/prepare.m",
+    "sha256": "7c1fa1c66062437aac522beddd7312b6cd5f2f86d5d3ceeb63f0f5d51a36f61a"
+  },
+  {
+    "path": "benchmark_v3/+ftv3/simulate.m",
+    "sha256": "f25e172d2fc57bfa5e01d44004d58be056c162a3dcf304601a90a51cbb08817d"
+  },
+  {
+    "path": "benchmark_v3/+ftv3/step.m",
+    "sha256": "3626affd9a4975ed4b7b7cdd509afe516a5c6a69f2ca131e614596540576282e"
+  },
+  {
+    "path": "benchmark_v3/PROTOCOL.md",
+    "sha256": "ab4e0199a1858609e16727456d4a9526879d7643af0552454ad4fc52b130970a"
+  },
+  {
+    "path": "benchmark_v3/run_v3.m",
+    "sha256": "bac5d5c5e00107c55977c05b75f414b5a0938e554853be58a8cf2257d5622889"
+  },
+  {
+    "path": "benchmark_v3/validate_v3.m",
+    "sha256": "05740bc6e589625195dcb687d28920515299c2ff32bd5ed88929d4456f3bc3a3"
+  },
+  {
+    "path": "benchmark_v5/PROTOCOL.md",
+    "sha256": "62c12e8c26b42cf85646199683b5b86a45eeddad759ed23a3fe9b6f243133c2f"
+  },
+  {
+    "path": "benchmark_v5/inspect_v5.m",
+    "sha256": "def9f5a1e0dee272c8d8329e38c0fa420e5a1e2762f08d5f52a0e6b418d72ee2"
+  },
+  {
+    "path": "benchmark_v5/run_pilot_v5.m",
+    "sha256": "7e7d86083a34b6ae1147f354d9854d0e702512a2e63b9a6ce0ce9d21e8e2f94a"
+  },
+  {
+    "path": "benchmark_v5/validate_v5.m",
+    "sha256": "453640c49bce623b728a5127d63de73130b9a968e8a6e9d2fca25657e9a86c0e"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/check_plan.m",
+    "sha256": "54b3618f6e2ab5ab6590ca949c9007a21c8d0103fb97835d42305a7ade50fd57"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/forecast.m",
+    "sha256": "130233b47ea1dcb87c862e12bf22c8c45524e6331e1a7fc9b9b37925cf25c2aa"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/govern.m",
+    "sha256": "d33238b21fe0b46c3d913046978e0ad05a1b1b7e4ae7d9d4d5322525686d8e5b"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/local_reference.m",
+    "sha256": "cb1728a5e960e8e582895a32261e2194202ac51c749a9a406102d1c2a22ce783"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/options.m",
+    "sha256": "9e1420a754f1f88ae1dff32fe91d63bb935a36990299b3c22d969e8596eff7c3"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/path_cache.m",
+    "sha256": "772d2c80c112deecf661b032b3c6cc9acb1281dd1934935904b73b42d7856998"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/phase.m",
+    "sha256": "993b0ed932c9f4c91003d275b9eb5e02b0fa66c7d1f12827106342a7fab72e5c"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/phase_plan.m",
+    "sha256": "8604b09b025810026be8d1f118bfcac9b4ec83f2c7e1b4e0739581ffd56cba8c"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/predict.m",
+    "sha256": "0cb05cce76a7adada8b9a6c190b3040cf510f540e6c6e28696a07286cb3912c0"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/simulate.m",
+    "sha256": "6858c72a1c8fc7079dcb7ffd00d8c28d8b5313e9eab4c92cf79c363d57afcaf2"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/step.m",
+    "sha256": "63a78d207bb5ef728533def9042133c5336369cee31ee85a7ca19bf7a91bf843"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/template.m",
+    "sha256": "94fd655f26a8f706831cf91dbd1cc79bbe8c2b00f934a0b168406b190569024e"
+  },
+  {
+    "path": "benchmark_v5/+ftv5/torque.m",
+    "sha256": "ec6999d7719fc9a4daf8527aad1202406f3320428f0106fe581a1832fe987bf7"
+  },
+  {
+    "path": "benchmark_v6/PROTOCOL.md",
+    "sha256": "95e91ff122fc68aceb7de8155344989d0cee480d9ee9de09cd013c2a075816d8"
+  },
+  {
+    "path": "benchmark_v6/run_v6.m",
+    "sha256": "4605ae2037a4a9a4e4aca2bf5630200e6907a76a802c305bc6b74aff8d81e06c"
+  },
+  {
+    "path": "benchmark_v6/validate_v6.m",
+    "sha256": "16b796b25c4c8d583a118893c97f252f12e871f0af8b85a55d9c37702e647c6b"
+  },
+  {
+    "path": "benchmark_v6/+ftv6/simulate.m",
+    "sha256": "a433815278db0c0297d1c768cb88a59c57a7766115a2d9665f515de33a7acf6a"
+  },
+  {
+    "path": "benchmark_v6/+ftv6/step.m",
+    "sha256": "cec4cb1d3c89876ca443dd2e42ec7ca87d3d5a22cd8bf92b0caef978f1c874b6"
+  },
+  {
+    "path": "benchmark_v6/+ftv6/update_observer.m",
+    "sha256": "3a171330db483f3388cd3ff11003bfd61e44957475631f837ad84dc7749bb16b"
+  },
+  {
+    "path": "benchmark_v6/+ftv6/variant.m",
+    "sha256": "815823a4bf071ad976aa9ebb79d8dc3db6eb1d18abd3f83b42726f35d85ad485"
+  },
+  {
+    "path": "benchmark_evidence/PROTOCOL.md",
+    "sha256": "6406ff54d9b01f99fc42cd006d5eccbcf662372aa8945bc707f66be416391daa"
+  },
+  {
+    "path": "benchmark_evidence/run_evidence.m",
+    "sha256": "ab7c763c8be0f84339dd44a8bd6874a17452588f5d60aef9e0d5ac15cc7820f7"
+  },
+  {
+    "path": "benchmark_evidence/validate_evidence.m",
+    "sha256": "7a75f9a4fcafd334bd0c0b5272fde4c509a6b526aaa8ee4ffe4eacc3a9e4191f"
+  },
+  {
+    "path": "benchmark_evidence/+fte/simulate.m",
+    "sha256": "acf7374fa659d262882f84f7e68088c6f9e3866641abeece3f85c456f0756e97"
+  }
+]

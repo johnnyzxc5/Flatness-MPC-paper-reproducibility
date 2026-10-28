@@ -1,0 +1,2 @@
+# Frozen identities must survive clone/checkout on every platform.
+* -text

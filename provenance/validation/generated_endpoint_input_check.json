@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "source_files": 66,
+  "campaign_sha256": "d40a805dce62cd5cc661e6963bb2cd6f9e0134a64a92f5a9099117ec4cc9355d",
+  "endpoint_inputs_generated": true,
+  "historical_binary_identity_required": false
+}

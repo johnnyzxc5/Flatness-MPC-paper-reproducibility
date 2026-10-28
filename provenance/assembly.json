@@ -1,0 +1,17 @@
+{
+  "campaign": "campaign_67629b312b5d",
+  "campaign_source_sha256": "67629b312b5d7f79db3f3b938957f2364eb1fbefd1fc6139f5b7c59b977be04e",
+  "source_dependency_files": 64,
+  "manuscript_source_sha256": "225f279233ef953945c78ca8e139293d231320a245e185ee5c07f7026a75cb88",
+  "upstream_audit_script_sha256": "68ef54397fb864ddfaf220381d4e6f7a4258776a2ca2b26a6de73ed54a1c07ce",
+  "upstream_figure_script_sha256": "a99baa8f1f21664c270bb98bf16aa19bb6f1e3e3bba4c0670f3308ce37f9c6bc",
+  "upstream_source_untouched": true,
+  "transformations": [
+    "Portable generation/analysis launchers",
+    "MATLAB trajectory inputs generated from exact historical endpoints",
+    "Analysis inputs derived from locally generated MAT outputs",
+    "No recorded MAT/NPZ/trace CSV files distributed"
+  ],
+  "distribution_scope": "Source, endpoint settings, seeds, small aggregate references and reference figures; no recorded run data",
+  "trajectory_inputs": "Generated locally from config/trajectory_endpoints.json"
+}
