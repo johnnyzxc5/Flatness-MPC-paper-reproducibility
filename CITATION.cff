@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the accompanying paper when referring to these computational materials."
 title: "Flatness-Based Predictive Control of Robotic Manipulators under Partial Actuator Degradation: Reproducibility Materials"
 type: software
+license: MIT
 authors:
   - family-names: Garcia
     given-names: Johnny
